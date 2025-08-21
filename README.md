@@ -6,13 +6,13 @@ This repo is imported as git submodule into git repos that need it.
 
 To add this package as a git submodule of another git repo
 
-git submodule add https://github.com/your-username/jedha-dts-getaround-schemas.git getaround-schemas
+* git submodule add https://github.com/your-username/jedha-dts-getaround-schemas.git getaround-schemas
 
-git submodule update --init --recursive
+* git submodule update --init --recursive
 
-git commit -m "Add getaround-schemas as submodule"
+* git commit -m "Add getaround-schemas as submodule"
 
-git push origin main
+* git push origin main
 
 
 Then install it as a dependency into requirements.txt (for projects/app defined in a docker container)
